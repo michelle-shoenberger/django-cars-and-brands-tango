@@ -32,6 +32,6 @@ Remember to start by creating a new virtual environment.
 `python -m venv venv source venv/bin/activate`
 `source venv/bin/activate`
 
-Once you have your virtual environment up and running you can tell pip to download all the requirements for this app by running `pip install -r requirements.txt`. Make sure you are in the main directory of the repo (the one with the readme in it).
+Once you have your virtual environment up and running install `django` , `psycopg2`, and 'pytz'
 
 Next set up the database `car_app` by running `createdb car_app`.
