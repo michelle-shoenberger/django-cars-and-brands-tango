@@ -3,11 +3,11 @@
 We are going to create a nested CRUD app that focuses on creating cars and their corresponding brands. Make it look nice and make sure your code is clean! Best of luck!
 
 Here are our recommended steps for creating CRUD apps:
-1. Schema
-2. Migrations
-3. Models
-4. Associations
-5. Validations
+1. Schema (can be drawn out)
+2. Models
+3. Associations
+4. Validations
+5. Migrations
 6. Create some text data in the database
 7. Manually test your associations in the `django shell`
 8. Create your routes
