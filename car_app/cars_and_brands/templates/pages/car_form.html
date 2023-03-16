@@ -1,0 +1,12 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+<h2 class='row'> {{type}} Car</h2>
+<form method='POST'>
+  {% csrf_token %}
+  <table>
+    {{form.as_table}}
+  </table>
+  <button type='submit'>Save</button>
+
+{% endblock %}

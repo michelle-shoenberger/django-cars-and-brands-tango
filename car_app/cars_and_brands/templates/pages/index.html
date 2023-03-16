@@ -1,0 +1,13 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+<h2 class='row text-danger'> All brands: </h2>
+<ul>
+  {% for brand in brands %}
+  <li><a href={% url 'brand' brand.id%}>{{brand.name}}</a></li>
+  {% endfor %}
+<ul>
+<button><a href={% url 'new_brand'%}>Make a new brand</a></button>
+
+
+{% endblock %}
